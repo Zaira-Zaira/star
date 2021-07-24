@@ -52,16 +52,17 @@
         // alors on effectue le traitement. Sinon on n'affiche rien.
 
             if($_POST["size"] > 0) {
-            $cote = 5;
+            $hauteur = 5;
+            $size = $_POST["size"];
 
         //repeter $cote fois le block suivant .         
 
-         while($cote <=0 ){
+         while($hauteur <=0 ){
 
         //parcours en longueur et en 
         
-          for($i = 1; $i <= $L; $i++) {
-            for($j = 1;  $j <= $L-$i; $j++){
+          for($i = 1; $i <= $size; $i++) {
+            for($j = 1;  $j <= $size-$i; $j++){
                 print(" ");
             }
             for($j = 1;  $j <= (2 * $i-1); $j++){
@@ -72,7 +73,7 @@
         //alors afficher une étoile. Sinon on met un espace.
 
 
-                if ($i== $L || $j == 1 || $j == (2 * $i - 1)) {
+                if ($i== $size || $j == 1 || $j == (2 * $i - 1)) {
                     print_r("* ");
                 }
                 else{
