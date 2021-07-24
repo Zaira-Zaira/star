@@ -62,9 +62,12 @@
         //parcours en longueur et en 
         
           for($i = 1; $i <= $size; $i++) {
+
+        //la valeur de j est égale à la taille de l'étoile - la valeur de i
             for($j = 1;  $j <= $size-$i; $j++){
                 print(" ");
             }
+         
             for($j = 1;  $j <= (2 * $i-1); $j++){
 
          
