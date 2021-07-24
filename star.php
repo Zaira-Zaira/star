@@ -12,7 +12,7 @@
     </header>
     <main>
         <section>
-            <form action="" method="POST">
+            <form action="#" method="POST">
             <label for="size">Enter the size of the star : </label>
             <input type="number"  id="size" name="size" min="1">
             <input type="submit" id="submit" name="submit" value="Send">

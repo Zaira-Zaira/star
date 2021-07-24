@@ -6,11 +6,23 @@ Il nous faudra donc réaliser une interface, où l'on va rentrer la taille de l'
 
 La base de données nomée Star a été créé pour pouvoir stocker la taille saisie par utilisateur.
 
+
+
+
+
 Voici l'example d'execution du programme : 
 
 1) Si on rentre 1, les lignes d'étoiles parallèles (la 2ème et 4ème lignes) seront égales à 2*( 2 + 1)  = 6
 
+
+# ![Getting Started](./asset/size_1.png)
+
+
 2) Si on rentre 5, les lignes d'étoiles parallèles seront égales à 2*(5+2+2+2) =  22
+
+
+
+# ![Getting Started](./asset/star_size.png)
 
 
 
